@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>ZiPx</title>
+  </head>
+  <body class="bg-slate-900 overflow-x-hidden">
+    <header class="text-violet-100 body-font">
+      <div class="container  mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          
+          <span class="ml-3 text-3xl text-violet-500 font-bold">ZiPx</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a href="/compress" class="mr-5 hover:text-gray-400">Compress</a>
+          <a href="/dcompress" class="mr-5 hover:text-gray-400">De-Compress</a>
+          <a href="/about" class="mr-5 hover:text-gray-400">About Us</a>
+          <a href="/manual" class="mr-5 hover:text-gray-400">User Manual</a>
+        </nav>
+      
+      </div>
+    </header>
+    <div class="flex md:mt-14 justify-center items-center">
+      <img
+        loading="lazy"
+        class="md:w-[800px] md:h-[400px] h-[50vh] w-screen px-2 rounded-2xl"
+        src="https://blog.internxt.com/content/images/2022/11/Blog---What-is-a-Zip---2.png"
+        alt="img "
+      />
+    </div>
+    <div class="flex justify-center items-center mt-4">
+      <div class="text-gray-100">
+        <p class="text-xl text-violet-200">Choose to compress or decompress</p>
+        <div class="flex justify-center space-x-10 mt-2">
+          <a
+            href="/compress"
+            class="rounded bg-teal-900 hover:bg-teal-700 px-4 py-2 text-xl text-gray-100 font-semibold"
+            >Compress</a
+          >
+          <a
+            href="/dcompress"
+            class="rounded bg-violet-900 hover:bg-violet-700 px-4 py-2 text-xl text-gray-100 font-semibold"
+            >De-Compress</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- component -->
+<footer class="footer footer-center  absolute bottom-0 w-full p-4 bg-gray-500/20 text-violet-400">
+  <div class="text-center">
+    <p>
+      Copyright © 2023 -
+      <a class="font-semibold" href="mailto:m.sohanemon@gmail.com"
+        >ZiPx<sup>TM</sup></a
+      >
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
